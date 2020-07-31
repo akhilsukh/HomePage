@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Roboto+Mono:wght@300;400;500;600&family=Source+Code+Pro:wght@400;500;600&display=swap");
+
+body {
+  font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
+  background-color: #111117;
+}
+
+.topic-container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.topic {
+  margin: 20px;
+  padding: 5px;
+  border: snow solid 2px;
+  border-radius: 4px;
+  background-color: #1c1c24;
+  text-align: center;
+  height: 12em;
+  width: 12em;
+}
+
+.title {
+  width: 100%;
+  margin: 8px 0;
+  text-align: center;
+  height: fit-content;
+  color: snow;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.link-list {
+  list-style-type: none;
+}
+
+li {
+  color: lavender;
+}
+
+a {
+  color: rgb(222, 222, 222);
+  text-decoration: none;
+}
+
+.topic-school a {
+  color: #ffdac1;
+  text-decoration: none;
+}
+
+.topic-util a {
+  color: #c7ceea;
+  text-decoration: none;
+}
+
+.topic-coding a {
+  color: #b5ead7;
+  text-decoration: none;
+}
+
+.topic-media a {
+  color: #ff9aa2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
