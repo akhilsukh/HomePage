@@ -3,26 +3,60 @@
 body {
   font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
   background-color: #111117;
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 4em;
+  padding: 4em;
+  margin-bottom: 2em;
+}
+
+.container{
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.search-bar{
+  /* margin-top: auto; */
+  display: flex;
+  min-width: inherit;
+  justify-content: center;
+}
+
+.search-text{
+  font-family: 'Roboto Mono';
+  padding: 1em;
+  display: block;
+  background-color: #1c1c24;
+  border: #0f0f0f solid 2px;
+  border-radius: 4px;
+  outline: none;
+  font-size: 2em;
+  color: snow;
+  width: 100%;
+  min-width: min-content;
+  height: 2em;
+  size: 8em;
+  margin: 4px;
+  margin-bottom: 8px;
 }
 
 .topic-container {
-  height: 100%;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: row;
+  min-width: fit-content;
+  justify-content: space-between;
   align-items: center;
 }
 
 .topic {
-  margin: 1.5em;
-  /* margin-bottom: 6em; */
-  padding: 5px;
+  padding: 6px;
   border: #0f0f0f solid 2px;
   border-radius: 4px;
+  margin: 4px;
   background-color: #1c1c24;
   text-align: center;
   height: 12em;
@@ -91,6 +125,6 @@ a:hover {
 }
 
 .fab-image:hover{
-  filter: drop-shadow(0 0 0.25rem snow);
+  filter: drop-shadow(0 0 0.2em snow);
 }
 
