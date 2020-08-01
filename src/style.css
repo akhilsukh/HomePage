@@ -21,27 +21,48 @@ body {
 
 .search-bar{
   /* margin-top: auto; */
+  width: 100%;
+  min-width: min-content;
+  size: 8em;
   display: flex;
   min-width: inherit;
   justify-content: center;
+  background-color: #1c1c24;
+  border: #0f0f0f solid 2px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  margin: 4px;
+  padding: 0 0.5em;
+}
+
+.search-sources{
+  height: inherit;
+  width: 3em;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-images{
+  margin: auto;
+  height: 2em;
+  width: 2em;
+  cursor: pointer;
 }
 
 .search-text{
   font-family: 'Roboto Mono';
-  padding: 1em;
+  width: 100%;
+  padding: 0 0.5em;
+  height: 2em;
   display: block;
   background-color: #1c1c24;
-  border: #0f0f0f solid 2px;
-  border-radius: 4px;
-  outline: none;
+  border: none;
+  /* outline: none; */
   font-size: 2em;
   color: snow;
-  width: 100%;
-  min-width: min-content;
-  height: 2em;
-  size: 8em;
-  margin: 4px;
-  margin-bottom: 8px;
 }
 
 .topic-container {
