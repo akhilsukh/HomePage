@@ -6,7 +6,7 @@ window.onload = function () {
         if (event.keyCode === 13) {
             event.preventDefault()
             if (search.value === '') {
-                search.placeholder = "Try Again"
+                search.placeholder = "Try Entering Text"
             }
             else {
                 var searchQuery = "http://www.google.com/search?q=" + search.value
