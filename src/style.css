@@ -60,7 +60,7 @@ body {
   display: block;
   background-color: #1c1c24;
   border: none;
-  /* outline: none; */
+  outline: none;
   font-size: 2em;
   color: snow;
 }
