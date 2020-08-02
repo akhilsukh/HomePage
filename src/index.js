@@ -14,6 +14,7 @@ window.onload = function () {
             else {
                 var searchQuery = "http://www.google.com/search?q=" + search.value
                 window.location.href = searchQuery
+                // search.value = null
             }
         }
     });
