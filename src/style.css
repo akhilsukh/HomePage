@@ -82,20 +82,22 @@ body {
 }
 
 .topic {
-  padding: 6px;
+  padding: 1em;
   border: #0f0f0f solid 2px;
   border-radius: 4px;
   margin: 4px;
   background-color: #1c1c24;
   text-align: center;
-  height: 12em;
+  height: fit-content;
   width: 12em;
 }
 
 .title {
   width: 100%;
-  margin: 0.5em;
+  margin-bottom: 0.25em;
+  margin-top: 0;
   text-align: center;
+  size: 2em;
   height: fit-content;
   color: snow;
 }
